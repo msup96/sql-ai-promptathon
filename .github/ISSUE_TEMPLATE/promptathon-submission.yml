@@ -1,17 +1,17 @@
 name: Promptathon submission
 description: Submit your Promptathon work as a GitHub Issue.
-title: "[Submission]: "
+title: "Mission: "
 labels:
   - promptathon-submission
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing your Promptathon work. Complete each section so reviewers can understand the goal, process, evidence, and impact of your solution.
+        Thanks for sharing your Promptathon work. Complete each section so reviewers can understand the goal, process and outcome of your solution.
   - type: textarea
     id: mission-open-goal
     attributes:
-      label: Mission/open goal
+      label: Mission/open goal Description
       description: What mission did you choose, or what open-ended goal did you set for the agent?
       placeholder: Describe the problem, scenario, dataset, or business question you asked the agent to solve.
     validations:

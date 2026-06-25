@@ -21,8 +21,6 @@ A complete entry includes:
 - Evidence from at least two tables or entities, or one plus a vector or semantic search step.
 - One validation, reconciliation, or robustness step, not just a headline number.
 - A rerunnable artifact (a parameterized notebook or a script), not a single chat answer.
-- One approach that failed or that you changed, and why.
-- One explicit limitation of your data, such as small samples, missing links, or messy text.
 
 Goals that are too small: a single aggregate with a caption, a top-ten list, or one question with one number.
 
@@ -36,7 +34,7 @@ Goals that are too small: a single aggregate with a caption, a top-ten list, or 
 
 - A goal that reflects real work, on the Zava data or your own.
 - A multi-turn journey with dead ends and course corrections, not a single prompt.
-- A working artifact and an honest account of what the agent got wrong.
+- A working artifact and an optional account of what the agent got wrong.
 
 ## Submission checklist
 
@@ -45,5 +43,4 @@ Goals that are too small: a single aggregate with a caption, a top-ten list, or 
 - [ ] The tools used, with evidence of SQL MCP tool calls
 - [ ] The turn-by-turn journey, including dead ends and corrections
 - [ ] The artifact you produced
-- [ ] An architecture or workflow diagram
-- [ ] What you would do next
+- [ ] An architecture or workflow diagram (optional)
